@@ -1,0 +1,104 @@
+<html>
+
+<head>
+    <title>凸物潮宠</title>
+    <meta charset='utf-8' />
+    <meta name='renderer' content='webkit' />
+    <meta name='viewport' content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no'
+    />
+    <meta name='apple-mobile-web-app-capable' content='yes' />
+    <meta name='full-screen' content='true' />
+    <meta name='x5-fullscreen' content='true' />
+    <meta name='360-fullscreen' content='true' />
+    <meta name='laya' screenorientation='landscape' />
+    <meta http-equiv='expires' content='0' />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1' />
+    <meta http-equiv='expires' content='0' />
+    <meta http-equiv='Cache-Control' content='no-siteapp' />
+    <script>
+        function addLoadEvent(func) {
+            //将已绑定的onload函数赋值给一个临时函数变量
+            var oldonload = window.onload;
+            //判断是否已有函数绑定
+            if (typeof oldonload != 'function') {
+                window.onload = func;
+            } else {
+                window.onload = function() {
+                    oldonload();
+                    fun();
+                }
+            }
+        }
+
+       addLoadEvent(()=>{
+        window.isLoad = true;
+       })
+
+      
+    </script>
+</head>
+
+<body style="background-color:#000000;overflow:hidden;">
+    <!-- 游戏画布下面
+    <div id="bgGame" style="width: auto;height: 100%;background:url('mining/img_door.jpg') no-repeat center;background-size:auto 100%;-moz-background-size:auto 100%;left: 0px; top: 0px;">
+    </div>
+    <div id="bgGameMask" style="width: 100%;height: 100%;background-color:#000000;position: fixed;opacity:0;left: 0px; top: 0px;">
+    </div>-->
+    <!-- 游戏画布上面-->
+    <!--div id="bgGameMenu" style="width: 100%;height: 10.22167487684729%;position: fixed; z-index: 1;left: 0; bottom: 0;">
+        <div id="bgGameMenu" style="width: auto;height: 100%;left: 0; top: 0;background:url('mining/img_door_menu.jpg') no-repeat center;background-size:auto 100%;-moz-background-size:auto 100%;">
+        
+        </div>
+    </div-->
+    <div id="loading" style="width: 100%;height: 100%;position: absolute; z-index: 2;left: 0px; top: 0px;background-color:#000000;display: none;">
+        <div style="width: 100%;height:40%;float: left;">
+            <img src="res/atlas/not/btn_close.png" style="width:8%;height:auto;margin-right:6%;margin-top: 20%;float: right;" onclick="closeGame();"/>
+        </div>
+        <div style="width: 100%;float: left;">
+            <img src="res/atlas/not/loading.png" style="width: 60%;height: auto;margin-left:20%;"/>
+        </div>
+    </div>
+    
+
+   
+    
+    <script type="text/javascript">
+        function loadLib(url) {
+            var script = document.createElement("script");
+            script.async = false;
+            script.src = url;
+            document.body.appendChild(script);
+        }
+        //2012-06-10 andy 加载laya引擎库失败，可以正常关闭
+        function closeGame(){
+            console.log("调用App关闭 flutter_inappwebview.close");
+            if(window.flutter_inappwebview){
+                window.flutter_inappwebview.callHandler('close');
+            } 
+        }
+        function hideHtmlLoading(){
+            document.getElementById("loading").style.display = "none";
+        }
+        function changeBg(path){
+            //document.getElementById("bgGame").style.backgroundImage = "url("+path+")";
+        }
+        //2021-06-22 andy 
+        function changeBgMask(value){
+            //document.getElementById("bgGameMask").style.opacity = value;
+        }
+        
+    </script>
+    
+    <script type="text/javascript" src="index.js"></script>
+    
+</body>
+
+</html>
+<script>
+    
+            // VConsole 默认会挂载到 `window.VConsole` 上
+
+    // setTimeout(() => {
+       
+    // }, 1000); 
+</script>

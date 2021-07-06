@@ -1,0 +1,10 @@
+<page>
+   <item name="Min.scene" props="" ifExport="默认" aName="挖矿"/>
+   <item name="ItemTreasury.scene" props="" ifExport="默认" aName="宝藏单元"/>
+   <item name="MinProgressBar.scene" props="" ifExport="默认" aName="进度条"/>
+   <item name="min/MinDoorTip.scene" props="" ifExport="默认" aName="进场提示"/>
+   <item name="min/bagContentGold.scene" props="" ifExport="默认" aName="金币详情页"/>
+   <item name="min/bagContentGood.scene" props="" ifExport="默认" aName="物品详情页"/>
+   <item name="min/MinTipInfo.scene" props="" ifExport="默认" aName="挖到宝藏信息页"/>
+   <item name="min/GM.scene" props="" ifExport="默认" aName="GM"/>
+</page>

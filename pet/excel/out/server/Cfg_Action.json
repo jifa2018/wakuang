@@ -1,0 +1,53 @@
+{
+	"Ver": "20210703130736",
+	"Items": [
+		{
+			"actionDirect": 5,
+			"actionType": 0,
+			"frameCount": 5,
+			"frameRate": 100,
+			"height": 400,
+			"id": 1,
+			"offX": 190,
+			"offY": 355,
+			"skin": "role1_104",
+			"width": 400
+		},
+		{
+			"actionDirect": 4,
+			"actionType": 0,
+			"frameCount": 5,
+			"frameRate": 100,
+			"height": 400,
+			"id": 2,
+			"offX": 210,
+			"offY": 315,
+			"skin": "role1_204",
+			"width": 400
+		},
+		{
+			"actionDirect": 5,
+			"actionType": 0,
+			"frameCount": 5,
+			"frameRate": 100,
+			"height": 400,
+			"id": 3,
+			"offX": 210,
+			"offY": 285,
+			"skin": "role1_304",
+			"width": 400
+		},
+		{
+			"actionDirect": 4,
+			"actionType": 0,
+			"frameCount": 5,
+			"frameRate": 100,
+			"height": 400,
+			"id": 4,
+			"offX": 200,
+			"offY": 355,
+			"skin": "role1_404",
+			"width": 400
+		}
+	]
+}

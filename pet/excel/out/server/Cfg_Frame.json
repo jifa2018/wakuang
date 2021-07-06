@@ -1,0 +1,32 @@
+{
+	"Ver": "20210703130736",
+	"Items": [
+		{
+			"count": 10,
+			"desc": "",
+			"height": 258,
+			"id": 1,
+			"rate": 80,
+			"skin": "mining_frame/role1",
+			"width": 281
+		},
+		{
+			"count": 10,
+			"desc": "",
+			"height": 258,
+			"id": 2,
+			"rate": 110,
+			"skin": "mining_frame/role2",
+			"width": 281
+		},
+		{
+			"count": 10,
+			"desc": "",
+			"height": 258,
+			"id": 3,
+			"rate": 130,
+			"skin": "mining_frame/role3",
+			"width": 281
+		}
+	]
+}

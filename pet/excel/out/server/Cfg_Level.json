@@ -1,0 +1,57 @@
+{
+	"Ver": "20210703130736",
+	"Items": [
+		{
+			"atk": 5,
+			"atkDistance": 1280,
+			"cri": 20,
+			"criRate": 5000,
+			"exp": 100,
+			"hp": 5,
+			"lvl": 1,
+			"moveSpeed": 5,
+			"mp": 10,
+			"name": "角色1",
+			"skin": "role1_104"
+		},
+		{
+			"atk": 5,
+			"atkDistance": 1280,
+			"cri": 20,
+			"criRate": 5000,
+			"exp": 100,
+			"hp": 5,
+			"lvl": 2,
+			"moveSpeed": 5,
+			"mp": 10,
+			"name": "角色2",
+			"skin": "role1_204"
+		},
+		{
+			"atk": 5,
+			"atkDistance": 1280,
+			"cri": 20,
+			"criRate": 5000,
+			"exp": 100,
+			"hp": 5,
+			"lvl": 3,
+			"moveSpeed": 5,
+			"mp": 10,
+			"name": "角色3",
+			"skin": "role1_304"
+		},
+		{
+			"atk": 5,
+			"atkDistance": 1280,
+			"cri": 20,
+			"criRate": 5000,
+			"exp": 100,
+			"hp": 5,
+			"lvl": 4,
+			"moveSpeed": 5,
+			"mp": 10,
+			"name": "角色4",
+			"skin": "role1_404"
+		}
+	]
+}

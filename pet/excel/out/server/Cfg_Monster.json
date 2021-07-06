@@ -1,0 +1,20 @@
+{
+	"Ver": "20210703130736",
+	"Items": [
+		{
+			"atk": 0,
+			"atkCD": 3000,
+			"atkDistance": 200,
+			"atkedRadis": 100,
+			"atkedX": 0,
+			"atkedY": -200,
+			"coin": 5000,
+			"hp": 1000,
+			"id": 1,
+			"moveSpeed": 1,
+			"name": "boss",
+			"skin": "boss1",
+			"type": 1
+		}
+	]
+}
